@@ -1,9 +1,3 @@
-
-
-
-
-
-
 **Fase 1: Preguntar**
 
 1. ¿Qué porcentaje de contenido es películas vs series?
@@ -11,13 +5,11 @@
 3. ¿Cuánto dura en promedio una película/serie? ¿Hay diferencias por género?
 4. ¿Cuánto dura en promedio una película/serie? ¿Hay diferencias por género?
 
-
 **Fase 2: Preparar** (10-20 min)*
 
 Ve a Kaggle → busca “netflix shows shivamb” → descarga el CSV (netflix_titles.csv).
 
 * Súbelo a Google Colab, Jupyter o Excel para empezar.
-
 
 **Fase 3: Procesar** (30-60 min)
 Limpieza típica (muy sencilla aquí):* Manejar valores nulos (director, cast, country → rellenar con “Sin dato” o eliminar filas si son pocas).
@@ -36,7 +28,6 @@ Usa pandas o lo que sepas:
 * Promedios: duración promedio por tipo.
 * Tablas cruzadas: géneros más populares por país o por rating.
 
-
 **Fase 5: Compartir** (1 hora)
 Crea visualizaciones bonitas:
 
@@ -46,7 +37,6 @@ Crea visualizaciones bonitas:
 * Treemap o wordcloud de géneros.
   Herramientas: Matplotlib/Seaborn (Python), o Tableau Public / Power BI (gratis), o incluso Google Data Studio / Looker Studio.
   Haz un dashboard simple con 4-5 gráficos + conclusiones.
-
 
 **Fase 6: Actuar** (30 min)
 Recomendaciones de negocio (ejemplos):
